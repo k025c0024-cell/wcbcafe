@@ -36,7 +36,9 @@ img {
     font-weight: normal;
 }
 
-.page-title {
+.page-title,
+.heading-large,
+.heading-medium {
     font-size: 3rem;
     text-align: center;
     margin-top: 2rem;
@@ -111,6 +113,27 @@ img {
     gap: 1rem;
     margin-bottom: 1.25rem;
 }
+.post-info{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.post-cat{
+    display: flex;
+    gap: .5rem;
+    list-style: none;
+}
+.post-cat a{
+    color: #432;
+    background-color: #faf7f0;
+    border-radius: 8px;
+    font-size: .875rem;
+    padding: .5rem .75rem
+}
+.post-cat{
+    background-color: #c9c2bc;
+}
+
 .post-date{
     font-size: .875rem;
 }
@@ -138,6 +161,7 @@ img {
 }
 .post p{
     margin-bottom: 1.5rem;
+    line-height: 2;
 }
 
 .heading-large {
